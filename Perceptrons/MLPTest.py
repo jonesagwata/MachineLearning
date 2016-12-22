@@ -1,7 +1,8 @@
 
 import numpy as np
 import matplotlib.pyplot as plt
-
+from Perceptron import train_mlp, evaluate_mlp
+import math
 """
     Author: Jones Agwata
     Script to test the working Multilayer perceptron functions

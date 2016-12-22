@@ -1,7 +1,7 @@
-from cw import generate_dataset, evaluate_perceptron, train_perceptron
+from Perceptron import evaluate_perceptron, train_perceptron
 import numpy as np
 import matplotlib.pyplot as plt
-
+import math
 
 """
     Author Jones Agwata
@@ -104,7 +104,7 @@ def generate_dataset():
 
     return training_data, validation_data, test_data
 
-    
+
 #Initialise the weights and necessary epoch sizes
 w = np.random.random_sample(3)-0.5
 epochs =[]
